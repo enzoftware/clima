@@ -1,0 +1,14 @@
+{
+  "name": "kontakty",
+  "version": "1.0.0",
+  "description": "Beauty and simple cli for create, read, update and delete contacts",
+  "main": "index.js",
+  "repository": "git@github.com:enzoftware/kontakty.git",
+  "author": "enzoftware <lizama.enzo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.14.1",
+    "inquirer": "^5.1.0",
+    "mongoose": "^5.0.7"
+  }
+}
