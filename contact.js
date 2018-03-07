@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const program = require('commander');
 const { prompt }= require('inquirer');
 const { addContact , getContact }  = require('./index');
@@ -6,12 +7,12 @@ const questions = [
     {
         type: 'input',
         name: 'firstname',
-        message: 'Enter the firstname... '
+        message: 'Enter the first name... '
     },
     {
         type: "input",
         name: "lastname",
-        message: "Enter the lastaname... "
+        message: "Enter the last name... "
     },
     {
         type: 'input',

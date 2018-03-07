@@ -22,12 +22,13 @@ const addContact = (contact) => {
     Contact.create(contact,(err) => {
         assert.equal(null,err);
         console.info('New contact added');
+        console.info(db.listCollections())
         db.close();
     });
 };
 
 const getContact = (name) =>{
-    const search = new RegExp(name,'i');
+    const search = new RegExp(`^${name}$`,'i');
     Contact.find({$or: [{firstName: search}, {lastName: search}]})
         .exec((err,contact) => {
             assert.equal(null,err);
