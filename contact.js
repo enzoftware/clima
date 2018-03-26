@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander');
 const { prompt }= require('inquirer');
-const { addContact , getContact }  = require('./index');
+const { addContact , getContact }  = require('./firebase');
 
 const questions = [
     {
