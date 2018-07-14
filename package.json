@@ -1,18 +1,25 @@
 {
-  "name": "kontakty",
+  "name": "pogoda-cli",
   "version": "1.0.0",
-  "description": "Beauty and simple cli for create, read, update and delete contacts",
+  "description": "Get information about the weather with this cli app",
   "main": "index.js",
-  "repository": "git@github.com:enzoftware/kontakty.git",
-  "author": "enzoftware <lizama.enzo@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "commander": "^2.14.1",
-    "firebase": "^4.12.0",
-    "inquirer": "^5.1.0",
-    "mongoose": "^5.0.7"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzoftware/pogoda-cli.git"
+  },
+  "author": "enzoftware",
+  "license": "ISC",
   "bin": {
-    "kontakty": "./contact.js"
+    "outside" : "bin/outside"
+  },
+  "bugs": {
+    "url": "https://github.com/enzoftware/pogoda-cli/issues"
+  },
+  "homepage": "https://github.com/enzoftware/pogoda-cli#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
   }
 }
