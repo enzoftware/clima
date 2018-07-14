@@ -1,1 +1,1 @@
-# pogoda-cli
+# Outside :rain:
