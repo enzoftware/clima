@@ -13,13 +13,15 @@
   "author": "enzoftware",
   "license": "ISC",
   "bin": {
-    "outside" : "bin/outside"
+    "outside": "bin/outside"
   },
   "bugs": {
     "url": "https://github.com/enzoftware/pogoda-cli/issues"
   },
   "homepage": "https://github.com/enzoftware/pogoda-cli#readme",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^2.1.0"
   }
 }
