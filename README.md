@@ -5,3 +5,16 @@
 </div>
 
 # outside
+---
+
+<div align="center">
+  
+  ![](gif/outside.gif)
+  
+</div>
+
+
+### About
+---
+##### Requirements
+- node 8.x ( beacause **async - await** functions )
