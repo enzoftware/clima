@@ -17,7 +17,7 @@
 ### About
 ---
 ##### Requirements
-- node 8.x ( beacause ```async - await``` functions ).
+- node 8.x ( because ```async - await``` functions ).
 ##### Steps
 1. Clone the project with ```git clone https://github.com/enzoftware/outside.git``` 
 2. Enter the project and ``` npm install``` to install all the project dependencies
