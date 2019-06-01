@@ -1,6 +1,6 @@
 <div align="center">
   
-  ![](https://images.emojiterra.com/mozilla/512px/1f308.png)
+  <img src="https://images.emojiterra.com/mozilla/512px/1f308.png" height="120"/>
   
 </div>
 
